@@ -313,12 +313,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/saleh2.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -337,12 +347,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/3orood2.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -360,12 +380,24 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/خصم.svg',
+                                        width: 50,
+                                        height: 50,
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -383,12 +415,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/5adamat.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -412,12 +454,25 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/حسابي.svg',
+                                        width: 40,
+                                        height: 40,
+
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -436,12 +491,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/notification.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -459,12 +524,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/notification.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -482,12 +557,22 @@ class _HomePageState extends State<HomePage> {
                             ),
                             child: (Column(
                               children: [
-                                FlatButton(
-                                  child: SvgPicture.asset(
-                                    'assets/images/notification.svg',
+                                Padding(
+                                  child: Container(
+                                    child: FlatButton(
+                                      child: SvgPicture.asset(
+                                        'assets/images/notification.svg',
+                                      ),
+                                      onPressed: () =>
+                                          scaffoldKey.currentState.openEndDrawer(),
+                                    ),
+                                    height: 60,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.black12,width: 1),
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
                                   ),
-                                  onPressed: () =>
-                                      scaffoldKey.currentState.openEndDrawer(),
+                                  padding: EdgeInsets.all(10),
                                 ),
                                 Text('الاسر \nالمنتجة')
                               ],
@@ -497,7 +582,50 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                   ],
-                )
+                ),
+
+                SizedBox(
+                  height: 20,
+                ),
+
+                Container(
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Padding(
+                    padding: EdgeInsets.all(10),
+                    child: CarouselSlider(
+                      options: CarouselOptions(
+                          viewportFraction: 1.0,
+                          onPageChanged: (index, reason) {
+                            setState(() {
+                              _current = index;
+                            });
+                          }),
+                      items: imgList.map((i) {
+                        return Builder(
+                          builder: (BuildContext context) {
+                            return Container(
+                                height:
+                                MediaQuery.of(context).size.width * 0.6,
+                                decoration: BoxDecoration(
+                                    color: Color(0xffFFFFFF),
+                                    borderRadius: BorderRadius.all(
+                                      Radius.circular(12.0),
+                                    )),
+                                child: ClipRRect(
+                                    borderRadius:
+                                    BorderRadius.circular(15.0),
+                                    child: Image.network('')));
+                          },
+                        );
+                      }).toList(),
+                    ),
+                  ),
+                ),
+
               ],
             ),
           )),

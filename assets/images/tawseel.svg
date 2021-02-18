@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.986" height="153.553" viewBox="0 0 144.986 153.553">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.373" x2="0.5" y2="1.312" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#199b97"/>
+      <stop offset="1" stop-color="#344da0"/>
+    </linearGradient>
+    <filter id="Path_37059" x="7.139" y="0" width="130.708" height="133.564" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#b7c2d6" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_37060" x="0" y="17.133" width="144.986" height="136.419" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-color="#b7c2d6" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_14" data-name="14" transform="translate(56.75 44.75)">
+    <g id="Group_48127" data-name="Group 48127" transform="translate(3.25 0.25)">
+      <g transform="matrix(1, 0, 0, 1, -60, -45)" filter="url(#Path_37059)">
+        <path id="Path_37059-2" data-name="Path 37059" d="M12.792,13.443l.011.01,0,.006a1.071,1.071,0,0,0,1.593,0h0l0,0,.011-.011.039-.043.143-.164q1.065-1.229,2.017-2.549a20.359,20.359,0,0,0,1.556-2.479,6.041,6.041,0,0,0,.787-2.6A5.354,5.354,0,1,0,8.25,5.6a6.043,6.043,0,0,0,.788,2.6,20.073,20.073,0,0,0,1.556,2.479Q11.546,12,12.61,13.234l.143.163.039.044ZM13.6,2.392A3.212,3.212,0,0,0,10.392,5.6a4.112,4.112,0,0,0,.551,1.623,18.19,18.19,0,0,0,1.389,2.207c.451.628.9,1.2,1.272,1.653.368-.45.821-1.025,1.272-1.653a18.275,18.275,0,0,0,1.389-2.207A4.112,4.112,0,0,0,16.817,5.6,3.212,3.212,0,0,0,13.6,2.392Z" transform="translate(58.89 44.75)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -60, -45)" filter="url(#Path_37060)">
+        <path id="Path_37060-2" data-name="Path 37060" d="M15.743,12.25a1.071,1.071,0,0,0,0,2.142H23.6a2.5,2.5,0,1,1,0,5H7.89a4.64,4.64,0,0,0,0,9.281h7.853a1.071,1.071,0,0,0,0-2.142H7.89a2.5,2.5,0,1,1,0-5H23.6a4.64,4.64,0,0,0,0-9.281Z" transform="translate(56.75 49.88)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
