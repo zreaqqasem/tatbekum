@@ -607,7 +607,7 @@ class _HomePageState extends State<HomePage> {
                                 child: ClipRRect(
                                     borderRadius:
                                     BorderRadius.circular(15.0),
-                                    child: Image.network('')))
+                                    child: Image.network('https://wallpaperaccess.com/full/767033.jpg')))
 
                     ),
                   ),
