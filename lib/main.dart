@@ -596,18 +596,7 @@ class _HomePageState extends State<HomePage> {
                       )),
                   child: Padding(
                     padding: EdgeInsets.all(10),
-                    child: CarouselSlider(
-                      options: CarouselOptions(
-                          viewportFraction: 1.0,
-                          onPageChanged: (index, reason) {
-                            setState(() {
-                              _current = index;
-                            });
-                          }),
-                      items: imgList.map((i) {
-                        return Builder(
-                          builder: (BuildContext context) {
-                            return Container(
+                    child: Container(
                                 height:
                                 MediaQuery.of(context).size.width * 0.6,
                                 decoration: BoxDecoration(
@@ -618,14 +607,10 @@ class _HomePageState extends State<HomePage> {
                                 child: ClipRRect(
                                     borderRadius:
                                     BorderRadius.circular(15.0),
-                                    child: Image.network('')));
-                          },
-                        );
-                      }).toList(),
+                                    child: Image.network('')))
+
                     ),
                   ),
-                ),
-
               ],
             ),
           )),
