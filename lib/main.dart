@@ -40,6 +40,84 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar:  Padding(
+        padding: EdgeInsets.all(20),
+        child: Container(
+          decoration: BoxDecoration(
+              color: Color(0xffFFFFFF),
+              borderRadius:
+              BorderRadius.all(Radius.circular(16.0))),
+          height: 60,
+          child: Row(
+            children: [
+              Container(
+                  width: 50,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                      BorderRadius.all(Radius.circular(16.0))),
+                  child: FlatButton(
+                    child: SvgPicture.asset(
+                      'assets/images/عروض.svg',
+                    ),
+                    onPressed: () =>
+                        scaffoldKey.currentState.openEndDrawer(),
+                  )),
+              Spacer(),
+              Container(
+                  width: 50,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                      BorderRadius.all(Radius.circular(16.0))),
+                  child: FlatButton(
+                    child: SvgPicture.asset(
+                      'assets/images/الاقسام.svg',
+                    ),
+                    onPressed: () =>
+                        scaffoldKey.currentState.openEndDrawer(),
+                  )),
+              Spacer(),
+              Container(
+                  width: 50,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                      BorderRadius.all(Radius.circular(16.0))),
+                  child: FlatButton(
+                    child: SvgPicture.asset(
+                      'assets/images/saleh.svg',
+                    ),
+                    onPressed: () =>
+                        scaffoldKey.currentState.openEndDrawer(),
+                  )),
+              Spacer(),
+              Container(
+                  width: 50,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                      BorderRadius.all(Radius.circular(16.0))),
+                  child: FlatButton(
+                    child: SvgPicture.asset(
+                      'assets/images/طلباتي.svg',
+                    ),
+                    onPressed: () =>
+                        scaffoldKey.currentState.openEndDrawer(),
+                  )),
+              Spacer(),
+              Container(
+                  width: 50,
+                  decoration: BoxDecoration(
+                      borderRadius:
+                      BorderRadius.all(Radius.circular(16.0))),
+                  child: FlatButton(
+                    child: SvgPicture.asset(
+                      'assets/images/home.svg',
+                    ),
+                    onPressed: () =>
+                        scaffoldKey.currentState.openEndDrawer(),
+                  )),
+            ],
+          ),
+        ),
+      ),
       backgroundColor: Color(0xffF8F8F8),
       key: scaffoldKey,
       body: SafeArea(
@@ -49,7 +127,7 @@ class _HomePageState extends State<HomePage> {
           child: SingleChildScrollView(
               child: Padding(
             padding: EdgeInsets.all(20),
-            child: Column(
+              child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Row(
@@ -319,12 +397,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/saleh2.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -335,8 +414,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -353,12 +433,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/3orood2.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -369,7 +450,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -388,12 +471,13 @@ class _HomePageState extends State<HomePage> {
                                         width: 50,
                                         height: 50,
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -404,7 +488,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -421,12 +507,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/5adamat.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -461,14 +548,14 @@ class _HomePageState extends State<HomePage> {
                                         'assets/images/حسابي.svg',
                                         width: 40,
                                         height: 40,
-
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -479,8 +566,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -497,12 +585,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/notification.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -513,7 +602,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -530,12 +621,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/notification.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -546,7 +638,9 @@ class _HomePageState extends State<HomePage> {
                             )),
                           ),
                         ),
-                        SizedBox(width: 10,),
+                        SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
@@ -563,12 +657,13 @@ class _HomePageState extends State<HomePage> {
                                       child: SvgPicture.asset(
                                         'assets/images/notification.svg',
                                       ),
-                                      onPressed: () =>
-                                          scaffoldKey.currentState.openEndDrawer(),
+                                      onPressed: () => scaffoldKey.currentState
+                                          .openEndDrawer(),
                                     ),
                                     height: 60,
                                     decoration: BoxDecoration(
-                                      border: Border.all(color: Colors.black12,width: 1),
+                                      border: Border.all(
+                                          color: Colors.black12, width: 1),
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                   ),
@@ -583,34 +678,343 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
+                SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  child: Stack(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Color(0xffFFFFFF),
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(12.0),
+                            )),
+                        child: Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                                height: MediaQuery.of(context).size.width * 0.5,
+                                decoration: BoxDecoration(
+                                    color: Color(0xffFFFFFF),
+                                    borderRadius: BorderRadius.all(
+                                      Radius.circular(15.0),
+                                    )),
+                                child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    child: Image.network(
+                                        'https://wallpaperaccess.com/full/767033.jpg')))),
+                      ),
+                      Positioned.fill(
+                          child: Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.black45,
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(15.0)),
+                              ),
+                             width: MediaQuery.of(context).size.width*0.75,
+                              height:  MediaQuery.of(context).size.width * 0.5,
+                            ),
+                          )),
+                      Positioned(
+                        child: Column(
+                          children: [
+                            Text(
+                              'أطلب أي شيئ',
+                              style: TextStyle(fontSize: 20, color: Colors.white,fontWeight:FontWeight.bold),
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(right: 20),
+                              child: Text(
+                                'المسوق الشخصي يفزع لك في أي وقت',
+                                style:
+                                    TextStyle(fontSize: 15, color: Colors.white,fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ],
+                        ),
+                        bottom: 60,
+                        right: 20,
+                      ),
+
+                      Positioned(bottom: 0,
+                      right: MediaQuery.of(context).size.width/4,
+                      child:ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          width: 180,
+                          height: 40,
+                          child: ElevatedButton(
+                            child: Text("اطلب الي بالك",style: TextStyle(fontSize: 16),),
+                            onPressed: () => print("it's pressed"),
+                            style: ElevatedButton.styleFrom(
+                              primary: Color(0xff30599F),
+                              onPrimary: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10.0),
+                              ),
+                            ),
+                          ),
+                        )
+                      )
+
+
+                      )
+
+                    ],
+                  ),
+                ),
+
+                SizedBox(
+                  height: 20,
+                ),
+
+                Row(
+                  children: [
+                    Text('عرض الكل'),
+                    Spacer(),
+                    Text(
+                      'جميع الاقسام',
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )
+                  ],
+                ),
 
                 SizedBox(
                   height: 20,
                 ),
 
                 Container(
+                  height: 80,
                   decoration: BoxDecoration(
                       color: Color(0xffFFFFFF),
                       borderRadius: BorderRadius.all(
                         Radius.circular(12.0),
                       )),
-                  child: Padding(
-                    padding: EdgeInsets.all(10),
-                    child: Container(
-                                height:
-                                MediaQuery.of(context).size.width * 0.6,
-                                decoration: BoxDecoration(
-                                    color: Color(0xffFFFFFF),
-                                    borderRadius: BorderRadius.all(
-                                      Radius.circular(12.0),
-                                    )),
-                                child: ClipRRect(
-                                    borderRadius:
-                                    BorderRadius.circular(15.0),
-                                    child: Image.network('https://wallpaperaccess.com/full/767033.jpg')))
-
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
                     ),
                   ),
+                ),
+                SizedBox(height: 10,),
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+                SizedBox(height: 10,),
+                Container(
+                  height: 80,
+                  decoration: BoxDecoration(
+                      color: Color(0xffFFFFFF),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(12.0),
+                      )),
+                  child: Center(
+                    child: ListTile(
+                      leading: Icon(Icons.arrow_back_ios_sharp,color: Colors.black,),
+                      title: Text('متاجر الالعاب',textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      subtitle: Text('نوصلك كل انواع الهدايا',style: TextStyle(fontSize: 16),textAlign: TextAlign.center,),
+                      trailing: Padding(
+                          padding: EdgeInsets.only(right: 4),
+                          child: SvgPicture.asset(
+                            'assets/images/el3b.svg',
+                            width: 25,
+                            height: 25,
+                          )),
+                      onTap: () {
+                        // Update the state of the app
+                        // ...
+                        // Then close the drawer
+                      },
+                    ),
+                  ),
+                ),
+
+
               ],
             ),
           )),
